@@ -95,10 +95,11 @@
 
             bindings = <&mkp MB2>;
         };
+
         zip_scroll: zip_scroll {
             compatible = "zmk,input-processorscroll";
-                #input-processor-cells = <0>;
-                type = <INPUT_REL_WHEEL>;
+            #input-processor-cells = <0>;
+            type = <INPUT_REL_WHEEL>;
         };
     };
 
@@ -118,10 +119,10 @@
 
         NUM {
             bindings = <
-&none   &trans              &mt LALT JP_LBRACKET  &mt LGUI JP_UNDERSCORE  &mt LGUI JP_RBRACKET      &mt RGUI JP_ASTERISK  &mt RGUI JP_PLUS  &mt RALT MINUS  &none         &none
-&none   &mt LCTRL JP_TILDE  &mt LALT HASH         &mt LSHFT JP_YEN        &mt LSHFT JP_AT           &mt RSHFT N1          &mt RSHFT N2      &mt RALT N4     &mt LCTRL N8  &none
-&none   &none               &none                 &none                   &none                     &trans                &trans            &none           &none         &none
-&none   &none               &none                 &none                   &kp DEL   &trans  &trans  &trans                                                  &none         &none
+&none  &trans              &mt LALT JP_LBRACKET  &mt LGUI JP_UNDERSCORE  &mt LGUI JP_RBRACKET                  &mt RGUI JP_ASTERISK  &mt RGUI JP_PLUS  &mt RALT MINUS  &trans        &trans
+&none  &mt LCTRL JP_TILDE  &mt LALT HASH         &mt LSHFT JP_YEN        &mt LSHFT JP_AT                       &mt RSHFT N1          &mt RSHFT N2      &mt RALT N4     &mt LCTRL N8  &none
+&none  &none               &none                 &none                   &none                                 &trans                &trans            &none           &none         &none
+&none  &none               &none                 &none                   &kp DEL               &trans  &trans  &trans                                                  &none         &none
             >;
         };
 
