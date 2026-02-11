@@ -197,6 +197,42 @@
             key-positions = <5 36>;
             layers = <0>;
         };
+
+        combo_n3 {
+            bindings = <&kp N3>;
+            key-positions = <15 16>;
+            layers = <1>;
+        };
+
+        combo_n5 {
+            bindings = <&kp N5>;
+            key-positions = <15 17>;
+            layers = <1>;
+        };
+
+        combo_n6 {
+            bindings = <&kp N6>;
+            key-positions = <16 17>;
+            layers = <1>;
+        };
+
+        combo_n7 {
+            bindings = <&kp N7>;
+            key-positions = <15 16 17>;
+            layers = <1>;
+        };
+
+        combo_n9 {
+            bindings = <&kp N9>;
+            key-positions = <15 18>;
+            layers = <1>;
+        };
+
+        combo_n0 {
+            bindings = <&kp N0>;
+            key-positions = <16 18>;
+            layers = <1>;
+        };
     };
 
     behaviors {
