@@ -85,6 +85,18 @@
             bindings = <&bootloader>;
         };
 
+        combo_lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <12 13 14>;
+            layers = <0>;
+        };
+
+        combo_lamg1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <15 16 17>;
+            layers = <0>;
+        };
+
         combo_w {
             bindings = <&kp W>;
             key-positions = <15 17>;
@@ -106,18 +118,6 @@
         combo_d {
             bindings = <&kp D>;
             key-positions = <18 17>;
-            layers = <0>;
-        };
-
-        combo_lang2 {
-            bindings = <&kp LANG2>;
-            key-positions = <12 13 14>;
-            layers = <0>;
-        };
-
-        combo_lamg1 {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <15 16 17>;
             layers = <0>;
         };
 
@@ -187,13 +187,13 @@
         };
 
         combo_lbkt {
-            bindings = <&kp A>;
+            bindings = <&kp JP_LBRACKET>;
             key-positions = <4 35>;
             layers = <0>;
         };
 
         combo_rbkt {
-            bindings = <&kp S>;
+            bindings = <&kp JP_RBRACKET>;
             key-positions = <5 36>;
             layers = <0>;
         };
