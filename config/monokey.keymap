@@ -69,10 +69,14 @@
         key-positions = <9 40>;
         bindings = <&studio_unlock>;
     };    
-        combo_reset_L {
-            key-positions = <3 8 13>;
-            bindings = <&bootloader>;
-        };
+    combo_reset_L {
+        key-positions = <0 4 35>;
+        bindings = <&bootloader>;
+    };
+    combo_reset_R {
+        key-positions = <5 9 36>;
+        bindings = <&bootloader>;
+    };
 
         scroll {
             bindings = <&mo 5>;
