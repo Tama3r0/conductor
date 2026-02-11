@@ -84,6 +84,35 @@
             key-positions = <5 9 37>;
             bindings = <&bootloader>;
         };
+
+        combo_w {
+            bindings = <&kp W>;
+            key-positions = <15 17>;
+            layers = <0>;
+        };
+
+        combo_z {
+            bindings = <&kp Z>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        combo_g {
+            bindings = <&kp G>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        combo_d {
+            bindings = <&kp D>;
+            key-positions = <18 17>;
+            layers = <0>;
+        };
+
+        combo_lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <12 13 14>;
+        };
     };
 
     behaviors {
@@ -96,7 +125,6 @@
 
             bindings = <&mkp MB2>;
         };
-        
 
         zip_scroll: zip_scroll {
             compatible = "zmk,input-processorscroll";
@@ -112,7 +140,7 @@
             bindings = <
 &none  &kp ESC      &mt LALT F  &mt LGUI U   &mt LGUI Y                           &mt RGUI B     &mt RGUI N   &mt RALT R  &mkp MB1    &mkp MB2
 &none  &mt LCTRL I  &mt LALT O  &mt LSHFT A  &mt LSHFT E                          &mt RSHFT S    &mt RSHFT K  &mt RALT H  &mt RALT T  &none
-&none  &none        &none       &none        &none                                &mkp LCLK      &mkp RCLK    &none      &none       &none
+&none  &none        &none       &none        &none                                &mkp LCLK      &mkp RCLK    &none       &none       &none
 &none  &none        &none       &none        &kp BSPC     &lt 2 RET  &lt 1 SPACE  &mt RCTRL TAB                           &none       &none
             >;
 
@@ -130,10 +158,10 @@
 
         FUNC {
             bindings = <
-&none  &trans          &kp LALT  &kp UP    &kp LSHFT                  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans
-&none  &kp LCTRL       &kp LEFT  &kp DOWN  &kp RIGHT                  &kp F1        &kp F2        &kp F4        &kp F8  &none
-&none  &none           &none     &none     &trans                     &trans        &trans        &none         &none   &none
-&none  &none           &none     &kp BSPC  &trans     &trans  &trans  &none                                     &none
+&none  &trans     &kp LALT  &kp UP    &kp LSHFT                  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans
+&none  &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT                  &kp F1        &kp F2        &kp F4        &kp F8  &none
+&none  &none      &none     &none     &trans                     &trans        &trans        &none         &none   &none
+&none  &none      &none     &kp BSPC  &trans     &trans  &trans  &none                                     &none
             >;
         };
 
