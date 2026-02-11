@@ -128,19 +128,19 @@
 
         FUNC {
             bindings = <
-&none &none &none &none &none             &none &none &none &none &none
-&none &none &none &none &none             &none &none &none &none &none
-&none &none &none &none &none             &none &none &none &none &none
-&none &none &none &none &none &none &none &none             &none &none 
+&none  &none  &none  &none  &none                     &none   &none   &none  &trans  &trans
+&none  &none  &none  &none  &none                     &none   &none   &none  &none   &none
+&none  &none  &none  &none  &none                     &trans  &trans  &none  &none   &none
+&none  &none  &none  &none  &kp BSPC  &trans  &trans  &trans                 &none   &none
             >;
         };
 
         ARROW {
             bindings = <
-&none &none &none &none &none             &none &none &none &none &none
-&none &none &none &none &none             &none &none &none &none &none
-&none &none &none &none &none             &none &none &none &none &none
-&none &none &none &none &none &none &none &none             &none &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none                &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
