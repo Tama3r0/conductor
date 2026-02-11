@@ -112,6 +112,43 @@
         combo_lang2 {
             bindings = <&kp LANG2>;
             key-positions = <12 13 14>;
+            layers = <0>;
+        };
+
+        combo_lamg1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <15 16 17>;
+            layers = <0>;
+        };
+
+        combo_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <15 36>;
+            layers = <0 1>;
+        };
+
+        combo_dot {
+            bindings = <&kp DOT>;
+            key-positions = <16 36>;
+            layers = <0 1>;
+        };
+
+        combo_x {
+            bindings = <&kp X>;
+            key-positions = <4 3>;
+            layers = <0>;
+        };
+
+        combo_q {
+            bindings = <&kp Q>;
+            key-positions = <4 2>;
+            layers = <0>;
+        };
+
+        combo_l {
+            bindings = <&kp L>;
+            key-positions = <5 7>;
+            layers = <0>;
         };
     };
 
