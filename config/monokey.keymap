@@ -76,23 +76,13 @@
         };
 
         combo_reset_L {
-            key-positions = <0 4 35>;
+            key-positions = <0 4 34>;
             bindings = <&bootloader>;
         };
 
         combo_reset_R {
-            key-positions = <5 9 36>;
+            key-positions = <5 9 37>;
             bindings = <&bootloader>;
-        };
-
-        scroll {
-            bindings = <&mo 5>;
-            key-positions = <17 18>;
-        };
-
-        mb3 {
-            bindings = <&mkp MB3>;
-            key-positions = <19 18>;
         };
     };
 
