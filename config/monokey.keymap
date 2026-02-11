@@ -71,7 +71,7 @@
         //};
 
         combo_sUnlock {
-            key-positions = <1 2>;
+            key-positions = <9 39>;
             bindings = <&studio_unlock>;
         };
 
