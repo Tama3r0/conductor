@@ -95,6 +95,11 @@
 
             bindings = <&mkp MB2>;
         };
+        zip_scroll: zip_scroll {
+            compatible = "zmk,input-processorscroll";
+                #input-processor-cells = <0>;
+                type = <INPUT_REL_WHEEL>;
+        };
     };
 
     keymap {
