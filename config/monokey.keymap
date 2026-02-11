@@ -326,6 +326,11 @@
             bindings = <&kp SEMI>;
             key-positions = <6 16>;
         };
+        combo_bspc {
+            bindings = <&kp BSPC>;
+            key-positions = <11 34>;
+            layers = <0>;
+        };
 
         combo_esc {
             bindings = <&kp ESC>;
@@ -337,6 +342,7 @@
             key-positions = <5 6 7>;
             layers = <2>;
         };
+
     };
 
     behaviors {
