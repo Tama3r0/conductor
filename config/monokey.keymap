@@ -233,6 +233,42 @@
             key-positions = <16 18>;
             layers = <1>;
         };
+
+        combo_f3 {
+            bindings = <&kp F3>;
+            key-positions = <15 16>;
+            layers = <2>;
+        };
+
+        combo_f5 {
+            bindings = <&kp F5>;
+            key-positions = <15 17>;
+            layers = <2>;
+        };
+
+        combo_f6 {
+            bindings = <&kp F6>;
+            key-positions = <16 17>;
+            layers = <2>;
+        };
+
+        combo_f7 {
+            bindings = <&kp F7>;
+            key-positions = <15 16 17>;
+            layers = <2>;
+        };
+
+        combo_f9 {
+            bindings = <&kp F9>;
+            key-positions = <15 18>;
+            layers = <2>;
+        };
+
+        combo_f10 {
+            bindings = <&kp F10>;
+            key-positions = <16 18>;
+            layers = <2>;
+        };
     };
 
     behaviors {
