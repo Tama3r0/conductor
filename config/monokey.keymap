@@ -295,7 +295,7 @@
         };
 
         combo_caret {
-            bindings = <&none>;
+            bindings = <&kp JP_CARET>;
             key-positions = <15 6 17>;
             layers = <0>;
         };
@@ -307,18 +307,18 @@
         };
 
         combo_divid {
-            bindings = <&none>;
+            bindings = <&kp FSLH>;
             key-positions = <5 7>;
             layers = <1>;
         };
 
         combo_underscore {
-            bindings = <&none>;
+            bindings = <&kp JP_UNDERSCORE>;
             key-positions = <15 16 17 36>;
         };
 
         combo_colon {
-            bindings = <&none>;
+            bindings = <&kp JP_COLON>;
             key-positions = <5 15>;
         };
 
