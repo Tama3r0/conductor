@@ -65,7 +65,10 @@
     //    bindings = <>;
     //    layers = <0>;
     //};
-
+    combo_sUnlock{
+        key-positions = <9 40>;
+        bindings = <&studio_unlock>;
+    };    
         combo_reset_L {
             key-positions = <3 8 13>;
             bindings = <&bootloader>;
