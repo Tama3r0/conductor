@@ -123,13 +123,13 @@
 
         combo_comma {
             bindings = <&kp COMMA>;
-            key-positions = <15 36>;
+            key-positions = <15 37>;
             layers = <0 1>;
         };
 
         combo_dot {
             bindings = <&kp DOT>;
-            key-positions = <16 36>;
+            key-positions = <16 37>;
             layers = <0 1>;
         };
 
@@ -182,19 +182,19 @@
 
         combo_minus {
             bindings = <&kp MINUS>;
-            key-positions = <36 15 16>;
+            key-positions = <15 16 37>;
             layers = <0>;
         };
 
         combo_lbkt {
             bindings = <&kp JP_LBRACKET>;
-            key-positions = <4 35>;
+            key-positions = <4 34>;
             layers = <0>;
         };
 
         combo_rbkt {
             bindings = <&kp JP_RBRACKET>;
-            key-positions = <5 36>;
+            key-positions = <5 37>;
             layers = <0>;
         };
 
@@ -284,13 +284,13 @@
 
         combo_qmark {
             bindings = <&kp QMARK>;
-            key-positions = <36 17>;
+            key-positions = <17 37>;
             layers = <0>;
         };
 
         combo_excl {
             bindings = <&kp EXCL>;
-            key-positions = <36 18>;
+            key-positions = <18 37>;
             layers = <0>;
         };
 
@@ -314,7 +314,7 @@
 
         combo_underscore {
             bindings = <&kp JP_UNDERSCORE>;
-            key-positions = <15 16 17 36>;
+            key-positions = <15 16 17 37>;
         };
 
         combo_colon {
@@ -326,6 +326,7 @@
             bindings = <&kp SEMI>;
             key-positions = <6 16>;
         };
+
         combo_bspc {
             bindings = <&kp BSPC>;
             key-positions = <11 34>;
@@ -343,6 +344,11 @@
             layers = <2>;
         };
 
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <37 7>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -362,20 +368,21 @@
 
         default_layer {
             bindings = <
-&none  &kp ESC      &mt LALT F  &mt LGUI U   &mt LGUI Y             &mt RGUI B     &mt RGUI N   &mt RALT R  &mkp MB1    &mkp MB2
-&none  &mt LCTRL I  &mt LALT O  &mt LSHFT A  &mt LSHFT E            &mt RSHFT S    &mt RSHFT K  &mt RALT H  &mt RALT T  &kp PG_UP
-&none  &none        &none       &none        &none                  &mkp MB4       &mkp MB5     &mkp MB3    &mo 0       &kp PG_DN
-&none  &none        &none       &none        &lt 2 RET  &none &none &lt 1 SPACE                             &kp LC(C)   &kp LC(V)
+&none  &kp ESC      &mt LALT F  &mt LGUI U   &mt LGUI Y                 &mt RGUI B   &mt RGUI N   &mt RALT R  &mkp MB1    &mkp MB2
+&none  &mt LCTRL I  &mt LALT O  &mt LSHFT A  &mt LSHFT E                &mt RSHFT S  &mt RSHFT K  &mt RALT H  &mt RALT T  &kp PG_UP
+&none  &none        &none       &none        &none                      &mkp MB4     &mkp MB5     &mkp MB3    &mo 0       &kp PG_DN
+&none  &none        &none       &none        &lt 2 RET    &none  &none  &lt 1 SPACE                           &kp LC(C)   &kp LC(V)
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NUM {
             bindings = <
-&none  &trans              &mt LALT JP_LBRACKET  &mt LGUI JP_UNDERSCORE  &mt LGUI JP_RBRACKET     &mt RGUI JP_ASTERISK  &mt RGUI JP_PLUS  &mt RALT MINUS  &trans        &trans
-&none  &mt LCTRL JP_TILDE  &mt LALT HASH         &mt LSHFT JP_YEN        &mt LSHFT JP_AT          &mt RSHFT N1          &mt RSHFT N2      &mt RALT N4     &mt LCTRL N8  &trans
-&none  &none               &none                 &none                   &none                    &trans                &trans            &trans          &none         &trans
-&none  &none               &none                 &none                   &kp BSPC &none    &none  &none  &trans                                           &trans        &trans
+&none  &trans              &mt LALT JP_LBRACKET  &mt LGUI JP_UNDERSCORE  &mt LGUI JP_RBRACKET                &mt RGUI JP_ASTERISK  &mt RGUI JP_PLUS  &mt RALT MINUS  &trans        &trans
+&none  &mt LCTRL JP_TILDE  &mt LALT HASH         &mt LSHFT JP_YEN        &mt LSHFT JP_AT                     &mt RSHFT N1          &mt RSHFT N2      &mt RALT N4     &mt LCTRL N8  &trans
+&none  &none               &none                 &none                   &none                               &trans                &trans            &trans          &none         &trans
+&none  &none               &none                 &none                   &kp BSPC              &none  &none  &none                                                   &trans        &trans
             >;
         };
 
