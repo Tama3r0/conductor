@@ -391,7 +391,7 @@
 &none  &none      &none     &none     &none                    &trans        &trans        &trans        &trans  &trans
 &none  &trans     &kp LALT  &kp UP    &kp LSHFT                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans
 &none  &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT                &kp F1        &kp F2        &kp F4        &kp F8  &trans
-&none  &none      &none     &none     &trans     &none  &none  &kp BCSP                                 &trans  &trans
+&none  &none      &none     &none     &trans     &none  &none  &kp BSPC                                 &trans  &trans
             >;
         };
     };
