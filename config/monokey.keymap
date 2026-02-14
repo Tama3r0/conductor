@@ -347,6 +347,7 @@
         combo_mb3 {
             bindings = <&mkp MB3>;
             key-positions = <8 9>;
+        };
     };
 
     behaviors {
